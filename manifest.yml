@@ -1,0 +1,10 @@
+
+---
+applications:
+- name: wasteclassifier
+  memory: 1.9GB
+  disk_quota: 1.9GB
+  random-route: true
+  parameters:
+    memory: 1.9GB
+    buildpack: 'python_buildpack'
